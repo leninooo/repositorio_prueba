@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Productos</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        body {
+            font-family: 'Trebuchet MS', sans-serif;
+        }
+        
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        
+        article {
+            border: 5px solid rgb(53, 53, 53);
+            border-radius: 10px;
+            margin: 10px;
+            overflow: hidden;
+            width: calc(33% - 20px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        article div {
+            padding: 20px;
+            text-align: center;
+        }
+        
+        img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 15px;
+        }
+        
+        input[type=number] {
+            width: 60%;
+            padding: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <article>
+            <div>
+                <h2>Apple iPhone 11 128 GB Negro</h2>
+                <img src="imagenes/PRODUCTO1.png" alt="Producto 1">
+                <p>Precio: $459.990</p>
+                <label for="cantidad1">Agregar al carro:</label>
+                <input type="number" id="cantidad1" name="cantidad1" value="1">
+            </div>
+        </article>
+        <article>
+            <div>
+                <h2>Apple iPhone 14 de 256 GB Medianoche</h2>
+                <img src="imagenes/PRODUCTO2.png" alt="Producto 2">
+                <p>Precio: $1.129.990</p>
+                <label for="cantidad2">Agregar al carro:</label>
+                <input type="number" id="cantidad2" name="cantidad2" value="1">
+            </div>
+        </article>
+        <article>
+            <div>
+                <h2>Apple iPhone 13 128GB Rosado</h2>
+                <img src="imagenes/PRODUCTO3.png" alt="Producto 3">
+                <p>Precio: $679.990</p>
+                <label for="cantidad3">Agregar al carro:</label>
+                <input type="number" id="cantidad3" name="cantidad3" value="1">
+            </div>
+        </article>
+        <article>
+            <div>
+                <h2>Airpods 2da generación</h2>
+                <img src="imagenes/PRODUCTO4.png" alt="Producto 4">
+                <p>Precio: $109.990</p>
+                <label for="cantidad4">Agregar al carro:</label>
+                <input type="number" id="cantidad4" name="cantidad4" value="1">
+            </div>
+        </article>
+        <article>
+            <div>
+                <h2>AirPods 3ra generación</h2>
+                <img src="imagenes/PRODUCTO5.png" alt="Producto 5">
+                <p>Precio: $209.990</p>
+                <label for="cantidad5">Agregar al carro:</label>
+                <input type="number" id="cantidad5" name="cantidad5" value="1">
+            </div>
+        </article>
+        <article>
+            <div>
+                <h2>AirPods Pro 2da generación</h2>
+                <img src="imagenes/PRODUCTO6.png" alt="Producto 6">
+                <p>Precio: $239.990</p>
+                <label for="cantidad6">Agregar al carro:</label>
+                <input type="number" id="cantidad6" name="cantidad6" value="1">
+            </div>
+        </article>
+        <article>
+            <div>
+                <h2>AirPods Max</h2>
+                <img src="imagenes/PRODUCTO7.png" alt="Producto 7">
+                <p>Precio: $559.990</p>
+                <label for="cantidad7">Agregar al carro:</label>
+                <input type="number" id="cantidad7" name="cantidad7" value="1">
+            </div>
+        </article>
+        <article>
+            <div>
+                <h2>Apple TV 4K 128GB</h2>
+                <img src="imagenes/PRODUCTO8.png" alt="Producto 8">
+                <p>Precio: $180.990</p>
+                <label for="cantidad8">Agregar al carro:</label>
+                <input type="number" id="cantidad8" name="cantidad8" value="1">
+            </div>
+        </article>
+        <article>
+            <div>
+                <h2>Apple Ipad 10a generación 256GB</h2>
+                <img src="imagenes/PRODUCTO9.png" alt="Producto 9">
+                <p>Precio: $489.990</p>
+                <label for="cantidad9">Agregar al carro:</label>
+                <input type="number" id="cantidad9" name="cantidad9" value="1">
+            </div>
+        </article>
+    </section>
+</body>
+</html>
